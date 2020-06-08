@@ -1,0 +1,35 @@
+{
+	"manifest_version": 2,
+	"name": "bili23",
+	"version": "2.0.0",
+	"description": "Bili2233",
+	"icons":
+	{
+		"16": "images/terminicon.png",
+		"48": "images/terminicon.png",
+		"128": "images/terminicon.png"
+	},
+	"browser_action": 
+	{
+		"default_icon": "images/terminicon.png",
+		"default_title": "BiliBili2233",
+		"default_popup": "html/popup.html"
+	},
+	"content_scripts": 
+	[
+		{
+			"matches": ["http://live.bilibili.com/*", "https://live.bilibili.com/*"],
+			"js": ["js/base.js"],
+			"run_at": "document_idle"
+		}
+  ],
+  "homepage_url": "https://www.baidu.com",
+	"permissions":
+	[
+		"tabs",
+		"http://*/*", 
+		"https://*/*"
+	],
+	"web_accessible_resources": ["js/2233zenra.js"]
+	// "homepage_url": "https://www.baidu.com",
+}
