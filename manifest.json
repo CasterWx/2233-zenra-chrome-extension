@@ -5,13 +5,13 @@
 	"description": "Bili2233",
 	"icons":
 	{
-		"16": "images/terminicon.png",
-		"48": "images/terminicon.png",
-		"128": "images/terminicon.png"
+		"16": "images/favicon.png",
+		"48": "images/favicon.png",
+		"128": "images/favicon.png"
 	},
 	"browser_action": 
 	{
-		"default_icon": "images/terminicon.png",
+		"default_icon": "images/favicon.png",
 		"default_title": "BiliBili2233",
 		"default_popup": "html/popup.html"
 	},
