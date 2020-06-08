@@ -23,13 +23,12 @@
 			"run_at": "document_idle"
 		}
   ],
-  "homepage_url": "https://www.baidu.com",
 	"permissions":
 	[
 		"tabs",
 		"http://*/*", 
 		"https://*/*"
 	],
-	"web_accessible_resources": ["js/2233zenra.js"]
-	// "homepage_url": "https://www.baidu.com",
+	"web_accessible_resources": ["js/2233zenra.js"],
+	"homepage_url": "https://github.com/CasterWx/2233-zenra-chrome-extension"
 }
